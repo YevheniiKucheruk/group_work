@@ -1,3 +1,327 @@
 body, html {
     margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    z-index: 1;
+    background: #FFB8CA;
+    width: 100%;
+    height: 100px;
+}
+.logo_img {
+    position: absolute;
+    width: 199px;
+    height: 50px;
+    left: 46px;
+    top: 37px;
+}
+.navigation {
+    position: absolute;
+    width: 541px;
+    height: 21px;
+    left: 10%;
+    top: 0px;
+}
+.li_home {
+    position: absolute;
+    width: 46px;
+    height: 21px;
+    left: 355px;
+    top: 50px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #D41443;
+}
+.li_about_us, .li_making, .li_products, .li_contact {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 436px;
+    top: 50px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+.li_making {
+    position: absolute;
+    width: 117px;
+    height: 21px;
+    left: 541px;
+    top: 50px;
+}
+.li_products {
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 693px;
+    top: 50px;
+}
+.li_contact {
+    position: absolute;
+    width: 64px;
+    height: 21px;
+    left: 832px;
+    top: 50px;
+}
+.button_header {
+    position: absolute;
+    width: 159px;
+    height: 44px;
+    left: 81%;
+    top: 38px;
+    background: #FFFFFF;
+    border-radius: 22px;
+}
+.button_header_text {
+    padding: 12px 0 10px 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D41443;
+}
+.main_page {
+    position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFB8CA;
+}
+.ice_cream_made_with {
+    position: absolute;
+    width: 277px;
+    height: 137px;
+    left: 115px;
+    top: 140px;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.passion {
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 90.5%;
+    /* or 52px */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+}
+.button_main_content_products {
+    
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    left: 115px;
+    top: 350px;
+
+    background: #D41443;
+    border-radius: 20px;
+}
+.Products {
+    padding: 12px 0 10px 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.button_main_content_making {
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 234px;
+    top: 350px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.How_its_made {
+    padding: 12px 0 10px 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #D41443;
+}
+.div_cafes {
+    position: absolute;
+    width: 72px;
+    height: 77px;
+    left: 87%;
+    top: 156px;
+}
+.p_cafes {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.p_16 {
+    position: relative;
+    margin: 0;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+
+}
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 55px;
+    top: -7px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.div_food_trucks {
+    position: absolute;
+    width: 92px;
+    height: 76px;
+    left: 86%;
+    top: 248px;
+}
+.p_23 {
+    margin: 0;
+    position: relative;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+}
+.p_food_trucks {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
+.circle_second {
+    left: 70px;
+    top: -7px;
+}
+.main_content_big_ellipse {
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    left: 550px;
+    top: 52px;
+}
+.main_content_ice_cream_img {
+    position: absolute;
+    width: 236px;
+    height: 557px;
+    left: 700px;
+    top: 108px;
+}
+.main_content_milk_img {
+    position: absolute;
+    width: 188px;
+    height: 191px;
+    left: 77px;
+    top: 429px;
+}
+.text_Lorem_ipsum_dolor {
+    position: absolute;
+    width: 200px;
+    height: 78px;
+    left: 295px;
+    top: 485px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+
+    color: #FFFFFF;
+}
+.main_content_arrow_img {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 295px;
+    top: 590px;
+}
+.main_content_girl_img {
+    position: absolute;
+    width: 293px;
+    height: 232px;
+    left: 950px;
+    top: 433px;
 }
