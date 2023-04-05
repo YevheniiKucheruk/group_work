@@ -150,7 +150,7 @@ body, html {
     width: 104px;
     height: 40px;
     left: 115px;
-    top: 350px;
+    top: 360px;
 
     background: #D41443;
     border-radius: 20px;
@@ -174,7 +174,7 @@ body, html {
     width: 138px;
     height: 40px;
     left: 234px;
-    top: 350px;
+    top: 360px;
 
     background: #FFFFFF;
     border-radius: 20px;
@@ -328,16 +328,17 @@ body, html {
 .div_natural_products {
     position: absolute;
     width: 350px;
-    height: 115px;
-    left: 200px;
-    
+    height: 120px;
+    left: 580px;
+    top: 792px;
 }
 .text_natural {
     position: absolute;
     width: 290px;
     height: 34px;
-    left: 455px;
-    top: 760px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
     
     font-family: 'Titan One';
     font-style: normal;
@@ -355,8 +356,8 @@ body, html {
     position: absolute;
     width: 350px;
     height: 66px;
-    left: 430px;
-    top: 800px;
+    /* left: 380px;
+    top: 800px; */
     
     font-family: 'Titan One';
     font-style: normal;
@@ -373,14 +374,14 @@ body, html {
     position: absolute;
     width: 335px;
     height: 735px;
-    left: 120px;
+    left: 237px;
+    top: 956px;
 }
 .background_ice_cream {
     position: absolute;
     width: 329px;
     height: 525px;
-    left: 117px;
-    top: 1166px;
+    top: 210px;
     background: #FFB8CA;
     border-radius: 24px;
 }
@@ -388,16 +389,14 @@ body, html {
     position: absolute;
     width: 329px;
     height: 329px;
-    left: 117px;
-    top: 950px;
 
 }
 .text_ice_cream {
     position: absolute;
     width: 180px;
     height: 34px;
-    left: 194px;
-    top: 1300px;
+    left: 80px;
+    top: 345px;
 
     font-family: 'Titan One';
     font-style: normal;
@@ -414,16 +413,16 @@ body, html {
     position: absolute;
     width: 26px;
     height: 6px;
-    left: 268px;
-    top: 1395px;
+    left: 154px;
+    top: 439px;
 
 }
 .text_Lorem_ipsum_dolor_sit {
     position: absolute;
     width: 241px;
     height: 106px;
-    left: 161px;
-    top: 1433px;
+    left: 47px;
+    top: 477px;
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -441,21 +440,21 @@ body, html {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 261px;
-    top: 1601px;
+    left: 147px;
+    top: 645px;
 }
 .div_ice_coffee {
     position: absolute;
     width: 337px;
     height: 735px;
-    left: 120px;
+    left: 593px;
+    top: 956px;
 }
 .background_ice_coffee {
     position: absolute;
-    width: 330px;
+    width: 329px;
     height: 525px;
-    left: 475px;
-    top: 1166px;
+    top: 210px;
 
     background: #F0D1A5;
     border-radius: 24px;
@@ -464,15 +463,13 @@ body, html {
     position: absolute;
     width: 337px;
     height: 335px;
-    left: 473px;
-    top: 956px;
 }
 .text_ice_coffee {
     position: absolute;
     width: 190px;
     height: 34px;
-    left: 549px;
-    top: 1300px;
+    left: 80px;
+    top: 345px;
     
     font-family: 'Titan One';
     font-style: normal;
@@ -489,28 +486,28 @@ body, html {
     position: absolute;
     width: 26px;
     height: 6px;
-    left: 627px;
-    top: 1395px;    
+    left: 154px;
+    top: 439px;    
 }
 .arrow_ice_coffee {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 620px;
-    top: 1601px;
+    left: 147px;
+    top: 645px;
 }
 .div_milkshakes {
     position: absolute;
     width: 335px;
     height: 735px;
-    left: 120px;
+    left: 953px;
+    top: 956px;
 }
 .background_milkshakes {
     position: absolute;
     width: 329px;
     height: 525px;
-    left: 835px;
-    top: 1166px;
+    top: 210px;
     
     background: #C2E297;
     border-radius: 24px;
@@ -519,15 +516,13 @@ body, html {
     position: absolute;
     width: 335px;
     height: 335px;
-    left: 833px;
-    top: 956px;
 }
 .text_milkshakes {
     position: absolute;
     width: 209px;
     height: 34px;
-    left: 895px;
-    top: 1300px;
+    left: 80px;
+    top: 345px;
     
     font-family: 'Titan One';
     font-style: normal;
@@ -544,22 +539,22 @@ body, html {
     position: absolute;
     width: 26px;
     height: 6px;
-    left: 986px;
-    top: 1395px;
+    left: 154px;
+    top: 439px;  
 }
 .arrow_milkshakes {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 979px;
-    top: 1601px;
+    left: 147px;
+    top: 645px;
 }
 .ice_coffee_text_Lorem_ipsum_dolor_sit {
     position: absolute;
     width: 241px;
     height: 106px;
-    left: 519px;
-    top: 1433px;
+    left: 47px;
+    top: 477px;
     
     font-family: 'DM Sans';
     font-style: normal;
@@ -577,8 +572,8 @@ body, html {
     position: absolute;
     width: 241px;
     height: 106px;
-    left: 879px;
-    top: 1433px;
+    left: 47px;
+    top: 477px;
     
     font-family: 'DM Sans';
     font-style: normal;
@@ -591,4 +586,760 @@ body, html {
     letter-spacing: 0.04em;
     
     color: #FFFFFF;
+}
+.div_how_its_made_background {
+    position: absolute;
+    width: 100%;
+    height: 1382px;
+    left: 0px;
+    top: 1810px;
+
+    background: #FFF5F6;
+}
+.div_text_how_its_made {
+    position: absolute;
+    width: 534px;
+    height: 115px;
+    left: 372px;
+    top: 1935px;
+}
+.text_tradition_and_love {
+    position: absolute;
+    width: 351px;
+    height: 34px;
+    left: 230px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFA5BA;
+}
+.text_how_its_made {
+    position: absolute;
+    height: 66px;
+    left: 150px;
+    top: 25px;
+
+    width: 540px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #D41443;
+}
+.img_background_milk {
+    position: absolute;
+    width: 100%;
+    height: 534px;
+    left: 0px;
+    top: 2152px;
+}
+.img_bio_eco {
+    position: absolute;
+    width: 516px;
+    height: 516px;
+    left: 220px;
+    top: 2105px;
+}
+.text_Fusce_ut_velit_laoreet {
+    position: absolute;
+    width: 463px;
+    height: 79px;
+    left: 832px;
+    top: 2156px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 176%;
+    /* or 28px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.text_Curabitur_lacinia_enim {
+    position: absolute;
+    width: 463px;
+    height: 155px;
+    left: 832px;
+    top: 2270px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 194%;
+    /* or 27px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #907E82;
+    
+}
+.button_Read_more {
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    left: 832px;
+    top: 2470px;
+
+    background: #FFFFFF;
+    border-radius: 22px;
+}
+.button_Read_more_text {
+    
+    padding: 12px 0 10px 40px;
+    position: absolute;
+    width: 101.04px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #D41443;
+}
+.div_721 {
+    position: absolute;
+    width: 330px;
+    height: 222px;
+    left: 285px;
+    top: 2660px;    
+}
+.img_icon1 {
+    position: absolute;
+    width: 33px;
+    height: 50px;
+}
+.text_721 {
+    position: absolute;
+    width: 98px;
+    height: 65px;
+    top: 40px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #D41443;
+    
+}
+.text_Aliquam {
+    position: absolute;
+    width: 330px;
+    height: 52px;
+    top: 170px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    /* or 28px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.div_16kg {
+    position: absolute;
+    width: 330px;
+    height: 222px;
+    left: 645px;
+    top: 2660px;
+}
+.img_icon2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.text_16kg {
+    position: absolute;
+    width: 147px;
+    height: 65px;
+    top: 40px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    
+    color: #D41443;
+}
+.text_Aliquam_ac {
+    position: absolute;
+    width: 330px;
+    height: 52px;
+    top: 170px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    /* or 28px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+}
+.div_84 {
+    position: absolute;
+    width: 330px;
+    height: 222px;
+    left: 1005px;
+    top: 2660px;
+}
+.img_icon3 {
+    position: absolute;
+    width: 44px;
+    height: 50px;
+}
+.text_84 {
+    position: absolute;
+    width: 77px;
+    height: 65px;
+    top: 40px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    
+    color: #D41443;
+}
+.text_Aliquam_ac_dui {
+    position: absolute;
+    width: 330px;
+    height: 52px;
+    top: 170px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    /* or 28px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.home-pic5 {
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    left: 0px;
+    top: 3021px;
+}
+.div_reviews {
+    position: absolute;
+    width: 926px;
+    height: 350px;
+    left: 178px;
+    top: 3574px;
+}
+.img_Emily {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 540px;
+}
+.reviews_background {
+    position: absolute;
+    width: 926px;
+    height: 138px;
+    left: 120px;
+    top: 100px;
+    
+    background: #FAFAFA;
+}
+.reviews_inverted_commas {
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    left: 50px;
+    top: 39px;
+}
+.reviews_text_Emily {
+    position: absolute;
+    width: 750px;
+    height: 52px;
+    left: 87px;
+    top: 40px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.reviews_hr_1 {
+    position: absolute;
+    width: 813px;
+    height: 0px;
+    left: 59px;
+    top: 75.5px;
+    
+    border: 1px solid #E1E1E1;
+}
+.reviews_hr_2 {
+    position: absolute;
+    width: 813px;
+    height: 0px;
+    left: 59px;
+    top: 106px;
+    
+    border: 1px solid #E1E1E1;
+}
+.reviews_three_points {
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 566px;
+    top: 253px;
+}
+.reviews_information_about_the_user_Emily {
+    position: absolute;
+    width: 172px;
+    height: 31px;
+    left: 496px;
+    top: 255px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 186%;
+    /* or 37px */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+.reviews_hr_dots_Emily {
+    position: absolute;
+    width: 72.4px;
+    height: 12px;
+    left: 545.6px;
+    top: 338px;
+}
+.background_footer {
+    position: absolute;
+    width: 100%;
+    height: 1022px;
+    left: 0px;
+    top: 4158px;
+    
+    background: #FFF5F6;
+}
+.img_sectionbg2_1 {
+    position: absolute;
+    width: 100%;
+    height: 382px;
+    top: 4158px;
+}
+.background_CAFE {
+    position: absolute;
+    width: 330px;
+    height: 572px;
+    left: 235px;
+    top: 4056px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+}
+.div_CAFE {
+    position: absolute;
+    width: 243px;
+    height: 459px;
+    left: 43px;
+    top: 51px;
+}
+.div_CAFE_text {
+    position: absolute;
+    width: 73px;
+    height: 28px;
+    
+    background: #F0D1A5;
+    border-radius: 6px;
+}
+.text_CAFE { 
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+}
+.div_Chicago {
+    position: absolute;
+    width: 243px;
+    height: 90px;
+    left: 0px;
+    top: 45px;
+}
+.text_Chicago {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.text_Chicago_Fusce_ut_velit {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 40px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+    /* or 29px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #907E82;
+}
+.hr_CAFE_1 {
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    top: 182px;
+    
+    border: 1px solid #E1E1E1;
+}
+.working_days_CAFE {
+    position: absolute;
+    width: 163px;
+    height: 131px;
+    left: 0px;
+    top: 214px; 
+}
+.text_Monday_Friday {
+    position: absolute;
+    width: 134px;
+    height: 30px;    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+    
+}
+.opening_hours_on_weekdays {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    top: 27px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #FFA5BA;
+}
+.text_Saturday_Sunday {
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    top: 73px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.opening_hours_on_weekends {
+    position: absolute;
+    width: 161px;
+    height: 30px;
+    top: 101px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #FFA5BA;
+}
+.hr_CAFE_2 {
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    top: 400px;
+    
+    border: 1px solid #E1E1E1;    
+}
+.phone_and_email_CAFE {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    top: 409px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+    /* or 29px */
+    
+    
+    color: #907E82;
+}
+
+
+.background_FOOD_TRUCK {
+    position: absolute;
+    width: 330px;
+    height: 572px;
+    left: 596px;
+    top: 4056px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+}
+.div_FOOD_TRUCK {
+    position: absolute;
+    width: 243px;
+    height: 459px;
+    left: 43px;
+    top: 51px;
+}
+.div_FOOD_TRUCK_text {
+    position: absolute;
+    width: 138px;
+    height: 28px;
+
+    background: #C2E297;
+    border-radius: 6px;
+}
+.text_FOOD_TRUCK { 
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+}
+.div_Los_Angeles {
+    position: absolute;
+    width: 243px;
+    height: 90px;
+    left: 0px;
+    top: 45px;
+}
+.text_Los_Angeles {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.text_Los_Angeles_Fusce_ut_velit {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 40px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+    /* or 29px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #907E82;
+}
+.hr_FOOD_TRUCK_1 {
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    top: 182px;
+    
+    border: 1px solid #E1E1E1;
+}
+.working_days_FOOD_TRUCK {
+    position: absolute;
+    width: 163px;
+    height: 131px;
+    left: 0px;
+    top: 214px; 
+}
+.hr_FOOD_TRUCK_2 {
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    top: 400px;
+    
+    border: 1px solid #E1E1E1;    
+}
+.phone_and_email_FOOD_TRUCK {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    top: 409px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+    /* or 29px */
+    
+    
+    color: #907E82;
+}
+.background_CAFE_2 {
+    position: absolute;
+    width: 330px;
+    height: 572px;
+    left: 955px;
+    top: 4056px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;    
+}
+.button_Our_Locations {
+    position: absolute;
+    width: 198px;
+    height: 44px;
+    left: 563px;
+    top: 4714px;
+    
+    background: #D41342;
+    border-radius: 22px;
+}
+.button_Our_Locations_text {
+    position: absolute;
+    width: 140px;
+    height: 44px;
+    left: 40px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.button_Franchise {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 776px;
+    top: 4714px;
+    
+    background: #FFFFFF;
+    border-radius: 22px;
+}
+.button_Franchise_text {
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 45px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #D41443;
+    
 }
