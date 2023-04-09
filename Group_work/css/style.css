@@ -1343,3 +1343,117 @@ body, html {
     color: #D41443;
     
 }
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 247px;
+    left: 0px;
+    top: 4923px;
+}
+.div_homemade_ice_cream_made {
+    position: absolute;
+    width: 474px;
+    height: 115px;
+    left: 234px;
+}
+.text_homemade_ice_cream_made {
+    position: absolute;
+    width: 472px;
+    height: 34px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFA5BA;
+}
+.text_with_passion {
+    position: absolute;
+    width: 480px;
+    height: 66px;
+    top: 15px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #D41443;
+}
+.div_social_media {
+    position: absolute;
+    width: 151px;
+    height: 34px;
+    left: 1128px; 
+}
+.img_github {
+    position: absolute;
+    left: 0px;
+}
+.img_telegram {
+    position: absolute;
+    left: 58px;
+}
+.img_facebook {
+    position: absolute;
+    left: 117px;
+}
+.text_Feel_free_to_contact {
+    position: absolute;
+    width: 319px;
+    height: 30px;
+    left: 965px;
+    top: 83px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 186%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+}
+.phone_number {
+    color: #D41443;
+}
+.div_hr_homemade_ice_cream_made {
+    position: relative;
+    top: 212px;
+    display: grid;
+}
+.hr_homemade_ice_cream_made {
+    position: absolute;
+    width: 99.9%;
+    justify-self: center;
+    
+    border: 1px solid #E1E1E1;
+}
+.text_All_Rights_Reserved {
+    position: absolute;
+    width: 276px;
+    height: 26px;
+    left: 622px;
+    top: 221px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186%;
+    /* identical to box height, or 26px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #907E82;
+}
