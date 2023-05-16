@@ -7,21 +7,27 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,500&family=Titan+One&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 	<div class="main_page">
 		<header class="header">
 			<img class="logo_img" src="img/logo 1.png">
-			<nav class="navigation">
+			<nav class="navbar">
 				<ul>
-					<a href="#"><li class="li_home">Home</li></a>
-					<a href="#"><li class="li_about_us">About us</li></a>
-					<a href="#"><li class="li_making">How it's made</li></a>
-					<a href="#"><li class="li_products">Our products</li></a>
-					<a href="#"><li class="li_contact">Contact</li></a>
+					<a href="#" class="nav-link"><li class="li_home nav-item">Home</li></a>
+					<a href="#" class="nav-link"><li class="nav-item li_about_us">About us</li></a>
+					<a href="#" class="nav-link"><li class="nav-item li_making">How it's made?</li></a>
+					<a href="#" class="nav-link"><li class="nav-item li_products">Our products</li></a>
+					<a href="#" class="nav-link"><li class="nav-item li_contact">Contact</li></a>
 				</ul>
 			</nav>
+            <div class="menu-toggle">
+                <div class="bx bx-menu"></div>
+                <div class="bx bx-x"></div>
+            </div>
 			<a href="#"><div class="button_header"><span class="button_header_text">Buy now ></span></div></a> 
+            <a href="#"><div class="button_header_menu"><span class="button_header_text_menu">Buy now ></span></div></a> 
 		</header>
 		<div class="main_content">
 			<p class="ice_cream_made_with">ice cream made with<span class="passion"><br>passion</span></p>
@@ -84,7 +90,7 @@
         <img src="img/sectionbg1 1.png" class="img_background_milk">
         <img src="img/home-pic4 1.png" class="img_bio_eco">
         <p class="text_Fusce_ut_velit_laoreet">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
-        <p class="text_Curabitur_lacinia_enim">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+        <p class="text_Curabitur_lacinia_enim">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.<br><br>
 
 
             Aliquam erat volutpat. Aenean accumsan.</p>
@@ -111,11 +117,12 @@
         <div class="reviews_background">
             <img src="img/“.png" class="reviews_inverted_commas">
             <p class="reviews_text_Emily">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
-            <hr class="reviews_hr_1"><hr class="reviews_hr_2">
+            <hr class="reviews_hr_1"><hr class="reviews_hr_2"><hr class="reviews_hr_3">
         </div>
         <img src="img/Group 8.png" class="reviews_three_points">
         <p class="reviews_information_about_the_user_Emily">Emily, Los Angeles</p>
         <img src="img/hr dots.png" class="reviews_hr_dots_Emily">
+        <img src="img/home 1.png" class="reviews_hr_dots_Emily_home1">
     </div>
     <div>
         <div class="background_footer"></div>
@@ -201,5 +208,6 @@
             <p class="text_All_Rights_Reserved">© 2019 - IceCream. All Rights Reserved. </p>
         </footer> 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
