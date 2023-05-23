@@ -3,7 +3,6 @@ body, html {
     margin: 0;
     padding: 0;
 }
-
 .header {
     position: fixed;
     width: 100%;
@@ -70,6 +69,10 @@ body, html {
     color: #FFFFFF;
 
 }
+.nav-item:hover {
+    transition: all 0.5s ease;
+    color: #D41443;
+}
 .li_home {
     position: absolute;
     width: 46px;
@@ -88,6 +91,10 @@ body, html {
     align-items: center;
 
     color: #D41443;
+}
+.li_home:hover {
+    transition: all 0.5s ease;
+    color: #FFFFFF;
 }
 .li_making {
     position: absolute;
@@ -168,6 +175,32 @@ body, html {
 }
 .button_header_menu {
     display: none;
+}
+.main_content_arrow_img:hover{
+    transition: all 0.5s ease;
+    width: 30px;
+    height: 30px;
+}
+.arrow_ice_cream:hover, .arrow_ice_coffee:hover, .arrow_milkshakes:hover{
+    transition: all 0.5s ease;
+    width: 50px;
+    height: 50px;
+}
+.button_header:hover, .button_header_menu:hover, .button_Read_more:hover, .button_Franchise:hover, .button_main_content_making:hover{
+    transition: all 0.5s ease;
+    background: #D41443;
+}
+.button_header_text:hover, .button_header_text_menu:hover, .button_Read_more_text:hover, .button_Franchise_text:hover, .How_its_made:hover{
+    transition: all 0.5s ease;
+    color: #FFFFFF;   
+}
+.button_main_content_products:hover, .button_Our_Locations:hover {
+    transition: all 0.5s ease;
+    background: #FFFFFF;
+}
+.Products:hover, .button_Our_Locations_text:hover{
+    transition: all 0.5s ease;
+    color: #D41443;   
 }
 .main_page {
     position: absolute;
@@ -3030,5 +3063,7 @@ body, html {
     }
     
   }
-
+  @media screen and (max-width: 320px) {
+    
+  }
 
