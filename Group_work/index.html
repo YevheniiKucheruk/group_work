@@ -11,14 +11,14 @@
 </head>
 <body>
 	<div class="main_page">
-		<header class="header">
+		<header id="header" class="header">
 			<img class="logo_img" src="img/logo 1.png">
 			<nav class="navbar">
 				<ul>
 					<a href="index.html" class="nav-link"><li class="li_home nav-item">Home</li></a>
-					<a href="#" class="nav-link"><li class="nav-item li_about_us">About us</li></a>
+					<a href="#about_us" class="nav-link"><li class="nav-item li_about_us">About us</li></a>
 					<a href="#how_its_made" class="nav-link"><li class="nav-item li_making">How it's made?</li></a>
-					<a href="#" class="nav-link"><li class="nav-item li_products">Our products</li></a>
+					<a href="#Our_products" class="nav-link"><li class="nav-item li_products">Our products</li></a>
 					<a href="#contact" class="nav-link"><li class="nav-item li_contact">Contact</li></a>
 				</ul>
 			</nav>
@@ -56,13 +56,13 @@
 			<p id="products" class="text_natural">100% natural</p>
 			<p class="text_products">products</p>
 		</div>
-		<div class="div_ice_cream">
+		<div id="Our_products" class="div_ice_cream">
             <div class="background_ice_cream"></div>
 			<img class="img_ice_cream" src="img/home-pic1.png">
             <p class="text_ice_cream">ice cream</p>
 			<img class="ice_cream_three_points" src="img/Group 4.png">
 			<p class="text_Lorem_ipsum_dolor_sit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-			<a href="#"><img class="arrow_ice_cream" src="img/arrow-right 4.png"></a>
+			<a href="#popup"><img class="arrow_ice_cream" src="img/arrow-right 4.png"></a>
 		</div>
         <div class="div_ice_coffee">
             <div class="background_ice_coffee"></div>
@@ -127,7 +127,7 @@
     <div>
         <div class="background_footer"></div>
         <img src="img/sectionbg2 1.png" class="img_sectionbg2_1">
-        <div class="background_CAFE">
+        <div id="about_us" class="background_CAFE">
             <div class="div_CAFE">
                 <div class="div_CAFE_text">
                     <p class="text_CAFE">CAFE</p>
@@ -207,6 +207,126 @@
             </div>
             <p class="text_All_Rights_Reserved">© 2019 - IceCream. All Rights Reserved. </p>
         </footer> 
+    </div>
+    <!-- Модальні вікна -->
+    <div id="popup" class="popup">
+        <a href="#header" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#header" class="popup_close">x</a>
+                <div class="popup_title">Ice cream</div>
+                <div class="popup_content_div">
+                    <div class="popup_flavours_block">
+                        <div class="popup_flavours_text">
+                            flavours
+                        </div>
+                        <div class="popup_ICE_CREAM_block">
+                            <img src="img/plombir.png" class="popup_ICE_CREAM_img">  
+                            <div class="popup_ICE_CREAM_text">
+                                100% ICE CREAM
+                            </div>      
+                        </div>
+                        <div class="popup_MANGO_SORBET_block">
+                            <img src="img/mango.png" class="popup_MANGO_SORBET_img">  
+                            <div class="popup_MANGO_SORBET_text">
+                                MANGO SORBET
+                            </div>      
+                        </div>  
+                        <div class="popup_STRAWBERRY_block">
+                            <img src="img/strawberry.png" class="popup_STRAWBERRY_img">  
+                            <div class="popup_STRAWBERRY_text">
+                                STRAWBERRY
+                            </div>      
+                        </div>  
+                        <div class="popup_BRAZILIAN_LIME_SORBET_block">
+                            <img src="img/lyam.png" class="popup_BRAZILIAN_LIME_SORBET_img">  
+                            <div class="popup_BRAZILIAN_LIME_SORBET_text">
+                                BRAZILIAN LIME SORBET
+                            </div>      
+                        </div>   
+                        <div class="popup_CHOCOLATE_block">
+                            <img src="img/chocolate.png" class="popup_CHOCOLATE_img">  
+                            <div class="popup_CHOCOLATE_text">
+                                CHOCOLATE
+                            </div>      
+                        </div>    
+                    </div> 
+                    
+                    <div class="popup_Syrups_block">
+                        <div class="popup_Syrups_text">
+                            Syrups
+                        </div>
+                        <div class="popup_rose_block">
+                            <img src="img/rose.png" class="popup_rose_img">  
+                            <div class="popup_rose_text">
+                                rose
+                            </div>      
+                        </div>
+                        <div class="popup_coconut_block">
+                            <img src="img/coconut.png" class="popup_coconut_img">  
+                            <div class="popup_coconut_text">
+                                coconut
+                            </div>      
+                        </div>  
+                        <div class="popup_mint_block">
+                            <img src="img/mint.png" class="popup_mint_img">  
+                            <div class="popup_mint_text">
+                                mint
+                            </div>      
+                        </div>  
+                        <div class="popup_caramel_block">
+                            <img src="img/caramel.png" class="popup_caramel_img">  
+                            <div class="popup_caramel_text">
+                                caramel
+                            </div>      
+                        </div>   
+                        <div class="popup_chocolate_syrups_block">
+                            <img src="img/chocolate_syrups.png" class="popup_chocolate_syrups_img">  
+                            <div class="popup_chocolate_syrups_text">
+                                CHOCOLATE
+                            </div>      
+                        </div>    
+                    </div> 
+        
+                    <div class="popup_toppings_block">
+                        <div class="popup_toppings_text">
+                            toppings
+                        </div>
+                        <div class="popup_marshmallow_block">
+                            <img src="img/marshmallow.png" class="popup_marshmallow_img">  
+                            <div class="popup_marshmallow_text">
+                                marshmallow
+                            </div>      
+                        </div>
+                        <div class="popup_cookies_block">
+                            <img src="img/cookies.png" class="popup_cookies_img">  
+                            <div class="popup_cookies_text">
+                                cookies
+                            </div>      
+                        </div>  
+                        <div class="popup_cereal_block">
+                            <img src="img/cereal.png" class="popup_cereal_img">  
+                            <div class="popup_cereal_text">
+                                cereal
+                            </div>      
+                        </div>  
+                        <div class="popup_nuts_block">
+                            <img src="img/nuts.png" class="popup_nuts_img">  
+                            <div class="popup_nuts_text">
+                                nuts
+                            </div>      
+                        </div>   
+                        <div class="popup_fruit_block">
+                            <img src="img/fruit.png" class="popup_fruit_img">  
+                            <div class="popup_fruit_text">
+                                fruit
+                            </div>      
+                        </div>    
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
     </div>
     <script src="js/script.js"></script>
     <!-- <script src="js/bootstrap.js"></script> -->

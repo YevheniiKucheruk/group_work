@@ -3067,3 +3067,182 @@ body, html {
     
   }
 
+
+
+  /* Модульне вікно №1 */
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 209, 223, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 2000;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup:target .popup_content {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    transition: all 0.8s ease 0s;
+}
+.popup_content {
+    background-color: #FFDBE4;;
+    color: #FFFFFF;
+    max-width: 1200px;
+    padding: 28px 48px 40px 48px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+    
+}
+.popup_content_div {
+    display: flex;
+    justify-content: center;
+}
+.popup_close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #989898;
+    text-decoration: none;
+}
+.popup_title {
+    margin: 0 0 1rem 0px;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.popup_flavours_block, .popup_Syrups_block, .popup_toppings_block{
+    margin: 0 2.4375rem 1rem 0;
+    background-color: #FFBDCE;
+    padding: 0;
+    width: 21.875rem;
+
+}
+.popup_flavours_text, .popup_Syrups_text, .popup_toppings_text{
+    padding: 1.5rem 0 0 0px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.popup_ICE_CREAM_block, 
+.popup_MANGO_SORBET_block, 
+.popup_STRAWBERRY_block, 
+.popup_BRAZILIAN_LIME_SORBET_block, 
+.popup_CHOCOLATE_block,
+.popup_rose_block,
+.popup_coconut_block,
+.popup_mint_block,
+.popup_caramel_block,
+.popup_chocolate_syrups_block,
+.popup_marshmallow_block,
+.popup_cookies_block,
+.popup_cereal_block,
+.popup_nuts_block,
+.popup_fruit_block
+{   
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.9375rem 1.5rem;
+}
+.popup_ICE_CREAM_img, 
+.popup_MANGO_SORBET_img, 
+.popup_STRAWBERRY_img, 
+.popup_BRAZILIAN_LIME_SORBET_img, 
+.popup_CHOCOLATE_img,
+.popup_rose_img,
+.popup_coconut_img,
+.popup_mint_img,
+.popup_caramel_img,
+.popup_chocolate_syrups_img,
+.popup_marshmallow_img,
+.popup_cookies_img,
+.popup_cereal_img,
+.popup_nuts_img,
+.popup_fruit_img
+{
+    width: 90px;
+    height: 90px;
+    padding: 1rem 1.25rem 0 0;
+}
+.popup_ICE_CREAM_text, 
+.popup_MANGO_SORBET_text, 
+.popup_STRAWBERRY_text, 
+.popup_BRAZILIAN_LIME_SORBET_text, 
+.popup_CHOCOLATE_text,
+.popup_rose_text,
+.popup_coconut_text,
+.popup_mint_text,
+.popup_caramel_text,
+.popup_chocolate_syrups_text,
+.popup_marshmallow_text,
+.popup_cookies_text,
+.popup_cereal_text,
+.popup_nuts_text,
+.popup_fruit_text
+{
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Анімація */
+
+.popup_ICE_CREAM_block:hover, 
+.popup_MANGO_SORBET_block:hover, 
+.popup_STRAWBERRY_block:hover, 
+.popup_BRAZILIAN_LIME_SORBET_block:hover, 
+.popup_CHOCOLATE_block:hover,
+.popup_rose_block:hover,
+.popup_coconut_block:hover,
+.popup_mint_block:hover,
+.popup_caramel_block:hover,
+.popup_chocolate_syrups_block:hover,
+.popup_marshmallow_block:hover,
+.popup_cookies_block:hover,
+.popup_cereal_block:hover,
+.popup_nuts_block:hover,
+.popup_fruit_block:hover
+{
+    transition: all 0.5s ease;
+    background: #D41443;
+}
+
