@@ -3115,11 +3115,13 @@ body, html {
     transition: all 0.8s ease 0s;
     opacity: 0;
     transform: translate(0px, -100%);
+    text-align: center;
     
 }
 .popup_content_div {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .popup_close {
     position: absolute;
@@ -3146,6 +3148,7 @@ body, html {
     background-color: #FFBDCE;
     padding: 0;
     width: 21.875rem;
+    flex-grow: 1;
 
 }
 .popup_flavours_text, .popup_Syrups_text, .popup_toppings_text{
